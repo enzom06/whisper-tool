@@ -69,7 +69,7 @@ Welcome message
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| success | boolean | The welcome message |
+| success | string | The welcome message |
 
 ## /transcribe POST
 Transcribe an audio file to text and return the **id** of the transcription
