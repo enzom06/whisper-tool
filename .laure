@@ -1,0 +1,15 @@
+{
+    "id": "stt",
+    "name": "stt",
+    "description": "Convert your wav 16kHz voice into text",
+    "path": ".",
+    "command": "",
+    "last_push": 1709630657,
+    "port": 5000,
+    "is_external": true,
+    "ignore": [
+        "git",
+        ".conda",
+        "__pycache__"
+    ]
+}

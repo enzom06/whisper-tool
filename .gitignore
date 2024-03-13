@@ -1,0 +1,7 @@
+thirdpartrun.md
+test
+__pycache__
+.conda
+ggml-base.bin
+ggml-medium.bin
+ggml-small.bin
