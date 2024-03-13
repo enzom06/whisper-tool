@@ -7,7 +7,9 @@ This is a simple transcriber API that uses whisper to transcribe audio files.
 ## Prerequisites
 
 download model
-you should download the model from [here](https://github.com/ggerganov/whisper.cpp/tree/master/models) and put it in the models folder. ex: `data/models/ggml-base.bin` and `data/models/ggml-small.bin` and `data/models/ggml-medium.bin`.
+you should download the model from [here](https://github.com/ggerganov/whisper.cpp/tree/master/models) and put it in the models folder.
+
+ex: `data/models/ggml-base.bin` and `data/models/ggml-small.bin` and `data/models/ggml-medium.bin`.
 
 # Quickstart
 
@@ -67,8 +69,7 @@ Welcome message
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | string | The welcome message |
-| success | boolean | True if the welcome message was successful |
+| success | boolean | The welcome message |
 
 ## /transcribe POST
 Transcribe an audio file to text and return the **id** of the transcription
